@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C80ED47127D2872100E56E10 /* MoviePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80ED47027D2872100E56E10 /* MoviePresenter.swift */; };
+		C80ED47627D2874500E56E10 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80ED47527D2874500E56E10 /* MovieViewController.swift */; };
+		C80ED48727D2D1DF00E56E10 /* UrlPhotoHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80ED48627D2D1DF00E56E10 /* UrlPhotoHandling.swift */; };
+		C80ED48C27D2D20200E56E10 /* UrlImageHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80ED48B27D2D20200E56E10 /* UrlImageHandling.swift */; };
+		C80ED49127D2D23400E56E10 /* SupportExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80ED49027D2D23400E56E10 /* SupportExtension.swift */; };
+		C80ED49D27D2D70600E56E10 /* YoutubeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80ED49C27D2D70600E56E10 /* YoutubeController.swift */; };
+		C80ED4A627D2D7E100E56E10 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80ED4A527D2D7E100E56E10 /* DetailPresenter.swift */; };
+		C80ED4AB27D30E3300E56E10 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80ED4AA27D30E3300E56E10 /* DetailViewController.swift */; };
+		C80ED4B427D313E200E56E10 /* ReviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80ED4B327D313E200E56E10 /* ReviewPresenter.swift */; };
+		C80ED4B927D3142F00E56E10 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80ED4B827D3142F00E56E10 /* ReviewViewController.swift */; };
+		C841D74527D1E578009F0B8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841D74427D1E578009F0B8A /* AppDelegate.swift */; };
+		C841D74727D1E578009F0B8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841D74627D1E578009F0B8A /* SceneDelegate.swift */; };
+		C841D74927D1E578009F0B8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841D74827D1E578009F0B8A /* ViewController.swift */; };
+		C841D74C27D1E578009F0B8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C841D74A27D1E578009F0B8A /* Main.storyboard */; };
+		C841D74E27D1E57B009F0B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C841D74D27D1E57B009F0B8A /* Assets.xcassets */; };
+		C841D75127D1E57B009F0B8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C841D74F27D1E57B009F0B8A /* LaunchScreen.storyboard */; };
+		C841D75C27D1E57C009F0B8A /* glimovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841D75B27D1E57C009F0B8A /* glimovieTests.swift */; };
+		C841D76727D1E57C009F0B8A /* glimovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841D76627D1E57C009F0B8A /* glimovieUITests.swift */; };
+		C841D77927D1E80B009F0B8A /* BaseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841D77827D1E80B009F0B8A /* BaseDelegate.swift */; };
+		C841D82C27D21DD8009F0B8A /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841D82B27D21DD8009F0B8A /* BasePresenter.swift */; };
+		C841D83127D21E03009F0B8A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841D83027D21E03009F0B8A /* BaseViewController.swift */; };
+		C841D83627D21E27009F0B8A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841D83527D21E27009F0B8A /* Config.swift */; };
+		C841D83B27D22501009F0B8A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841D83A27D22501009F0B8A /* Model.swift */; };
+		C841D84127D22C01009F0B8A /* ViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841D84027D22C01009F0B8A /* ViewPresenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C841D75827D1E57C009F0B8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C841D73927D1E578009F0B8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C841D74027D1E578009F0B8A;
+			remoteInfo = glimovie;
+		};
+		C841D76327D1E57C009F0B8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C841D73927D1E578009F0B8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C841D74027D1E578009F0B8A;
+			remoteInfo = glimovie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C80ED47027D2872100E56E10 /* MoviePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePresenter.swift; sourceTree = "<group>"; };
+		C80ED47527D2874500E56E10 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		C80ED48627D2D1DF00E56E10 /* UrlPhotoHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlPhotoHandling.swift; sourceTree = "<group>"; };
+		C80ED48B27D2D20200E56E10 /* UrlImageHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlImageHandling.swift; sourceTree = "<group>"; };
+		C80ED49027D2D23400E56E10 /* SupportExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportExtension.swift; sourceTree = "<group>"; };
+		C80ED49C27D2D70600E56E10 /* YoutubeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeController.swift; sourceTree = "<group>"; };
+		C80ED4A527D2D7E100E56E10 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		C80ED4AA27D30E3300E56E10 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C80ED4B327D313E200E56E10 /* ReviewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewPresenter.swift; sourceTree = "<group>"; };
+		C80ED4B827D3142F00E56E10 /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		C841D74127D1E578009F0B8A /* glimovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glimovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C841D74427D1E578009F0B8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C841D74627D1E578009F0B8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C841D74827D1E578009F0B8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C841D74B27D1E578009F0B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C841D74D27D1E57B009F0B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C841D75027D1E57B009F0B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C841D75227D1E57B009F0B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C841D75727D1E57C009F0B8A /* glimovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glimovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C841D75B27D1E57C009F0B8A /* glimovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glimovieTests.swift; sourceTree = "<group>"; };
+		C841D75D27D1E57C009F0B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C841D76227D1E57C009F0B8A /* glimovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glimovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C841D76627D1E57C009F0B8A /* glimovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glimovieUITests.swift; sourceTree = "<group>"; };
+		C841D76827D1E57C009F0B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C841D77827D1E80B009F0B8A /* BaseDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDelegate.swift; sourceTree = "<group>"; };
+		C841D82B27D21DD8009F0B8A /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		C841D83027D21E03009F0B8A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C841D83527D21E27009F0B8A /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		C841D83A27D22501009F0B8A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C841D84027D22C01009F0B8A /* ViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPresenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C841D73E27D1E578009F0B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C841D75427D1E57C009F0B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C841D75F27D1E57C009F0B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C80ED46F27D286FB00E56E10 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				C80ED47027D2872100E56E10 /* MoviePresenter.swift */,
+				C80ED47527D2874500E56E10 /* MovieViewController.swift */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		C80ED47A27D2CFB300E56E10 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C80ED48627D2D1DF00E56E10 /* UrlPhotoHandling.swift */,
+				C80ED48B27D2D20200E56E10 /* UrlImageHandling.swift */,
+				C80ED49027D2D23400E56E10 /* SupportExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C80ED49B27D2D6EC00E56E10 /* Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				C80ED49C27D2D70600E56E10 /* YoutubeController.swift */,
+			);
+			path = Youtube;
+			sourceTree = "<group>";
+		};
+		C80ED4A427D2D7C700E56E10 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C80ED4A527D2D7E100E56E10 /* DetailPresenter.swift */,
+				C80ED4AA27D30E3300E56E10 /* DetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		C80ED4AF27D3123B00E56E10 /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				C80ED4B327D313E200E56E10 /* ReviewPresenter.swift */,
+				C80ED4B827D3142F00E56E10 /* ReviewViewController.swift */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
+		C841D73827D1E578009F0B8A = {
+			isa = PBXGroup;
+			children = (
+				C841D74327D1E578009F0B8A /* glimovie */,
+				C841D75A27D1E57C009F0B8A /* glimovieTests */,
+				C841D76527D1E57C009F0B8A /* glimovieUITests */,
+				C841D74227D1E578009F0B8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C841D74227D1E578009F0B8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C841D74127D1E578009F0B8A /* glimovie.app */,
+				C841D75727D1E57C009F0B8A /* glimovieTests.xctest */,
+				C841D76227D1E57C009F0B8A /* glimovieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C841D74327D1E578009F0B8A /* glimovie */ = {
+			isa = PBXGroup;
+			children = (
+				C841D74427D1E578009F0B8A /* AppDelegate.swift */,
+				C841D74D27D1E57B009F0B8A /* Assets.xcassets */,
+				C841D77727D1E6AA009F0B8A /* Base */,
+				C841D83527D21E27009F0B8A /* Config.swift */,
+				C80ED4A427D2D7C700E56E10 /* Detail */,
+				C841D83F27D22BE7009F0B8A /* Home */,
+				C841D75227D1E57B009F0B8A /* Info.plist */,
+				C841D74F27D1E57B009F0B8A /* LaunchScreen.storyboard */,
+				C841D74A27D1E578009F0B8A /* Main.storyboard */,
+				C841D83A27D22501009F0B8A /* Model.swift */,
+				C80ED46F27D286FB00E56E10 /* Movie */,
+				C80ED4AF27D3123B00E56E10 /* Review */,
+				C841D74627D1E578009F0B8A /* SceneDelegate.swift */,
+				C80ED47A27D2CFB300E56E10 /* Utils */,
+				C80ED49B27D2D6EC00E56E10 /* Youtube */,
+			);
+			path = glimovie;
+			sourceTree = "<group>";
+		};
+		C841D75A27D1E57C009F0B8A /* glimovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				C841D75B27D1E57C009F0B8A /* glimovieTests.swift */,
+				C841D75D27D1E57C009F0B8A /* Info.plist */,
+			);
+			path = glimovieTests;
+			sourceTree = "<group>";
+		};
+		C841D76527D1E57C009F0B8A /* glimovieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C841D76627D1E57C009F0B8A /* glimovieUITests.swift */,
+				C841D76827D1E57C009F0B8A /* Info.plist */,
+			);
+			path = glimovieUITests;
+			sourceTree = "<group>";
+		};
+		C841D77727D1E6AA009F0B8A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C841D77827D1E80B009F0B8A /* BaseDelegate.swift */,
+				C841D82B27D21DD8009F0B8A /* BasePresenter.swift */,
+				C841D83027D21E03009F0B8A /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C841D83F27D22BE7009F0B8A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C841D74827D1E578009F0B8A /* ViewController.swift */,
+				C841D84027D22C01009F0B8A /* ViewPresenter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C841D74027D1E578009F0B8A /* glimovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C841D76B27D1E57C009F0B8A /* Build configuration list for PBXNativeTarget "glimovie" */;
+			buildPhases = (
+				C841D73D27D1E578009F0B8A /* Sources */,
+				C841D73E27D1E578009F0B8A /* Frameworks */,
+				C841D73F27D1E578009F0B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glimovie;
+			productName = glimovie;
+			productReference = C841D74127D1E578009F0B8A /* glimovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C841D75627D1E57C009F0B8A /* glimovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C841D76E27D1E57C009F0B8A /* Build configuration list for PBXNativeTarget "glimovieTests" */;
+			buildPhases = (
+				C841D75327D1E57C009F0B8A /* Sources */,
+				C841D75427D1E57C009F0B8A /* Frameworks */,
+				C841D75527D1E57C009F0B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C841D75927D1E57C009F0B8A /* PBXTargetDependency */,
+			);
+			name = glimovieTests;
+			productName = glimovieTests;
+			productReference = C841D75727D1E57C009F0B8A /* glimovieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C841D76127D1E57C009F0B8A /* glimovieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C841D77127D1E57C009F0B8A /* Build configuration list for PBXNativeTarget "glimovieUITests" */;
+			buildPhases = (
+				C841D75E27D1E57C009F0B8A /* Sources */,
+				C841D75F27D1E57C009F0B8A /* Frameworks */,
+				C841D76027D1E57C009F0B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C841D76427D1E57C009F0B8A /* PBXTargetDependency */,
+			);
+			name = glimovieUITests;
+			productName = glimovieUITests;
+			productReference = C841D76227D1E57C009F0B8A /* glimovieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C841D73927D1E578009F0B8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C841D74027D1E578009F0B8A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C841D75627D1E57C009F0B8A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C841D74027D1E578009F0B8A;
+					};
+					C841D76127D1E57C009F0B8A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C841D74027D1E578009F0B8A;
+					};
+				};
+			};
+			buildConfigurationList = C841D73C27D1E578009F0B8A /* Build configuration list for PBXProject "glimovie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C841D73827D1E578009F0B8A;
+			productRefGroup = C841D74227D1E578009F0B8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C841D74027D1E578009F0B8A /* glimovie */,
+				C841D75627D1E57C009F0B8A /* glimovieTests */,
+				C841D76127D1E57C009F0B8A /* glimovieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C841D73F27D1E578009F0B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C841D75127D1E57B009F0B8A /* LaunchScreen.storyboard in Resources */,
+				C841D74E27D1E57B009F0B8A /* Assets.xcassets in Resources */,
+				C841D74C27D1E578009F0B8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C841D75527D1E57C009F0B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C841D76027D1E57C009F0B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C841D73D27D1E578009F0B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C841D84127D22C01009F0B8A /* ViewPresenter.swift in Sources */,
+				C80ED4AB27D30E3300E56E10 /* DetailViewController.swift in Sources */,
+				C80ED4B927D3142F00E56E10 /* ReviewViewController.swift in Sources */,
+				C80ED49127D2D23400E56E10 /* SupportExtension.swift in Sources */,
+				C841D74927D1E578009F0B8A /* ViewController.swift in Sources */,
+				C80ED47627D2874500E56E10 /* MovieViewController.swift in Sources */,
+				C841D82C27D21DD8009F0B8A /* BasePresenter.swift in Sources */,
+				C80ED4B427D313E200E56E10 /* ReviewPresenter.swift in Sources */,
+				C80ED49D27D2D70600E56E10 /* YoutubeController.swift in Sources */,
+				C80ED47127D2872100E56E10 /* MoviePresenter.swift in Sources */,
+				C841D74527D1E578009F0B8A /* AppDelegate.swift in Sources */,
+				C80ED48C27D2D20200E56E10 /* UrlImageHandling.swift in Sources */,
+				C841D83627D21E27009F0B8A /* Config.swift in Sources */,
+				C841D74727D1E578009F0B8A /* SceneDelegate.swift in Sources */,
+				C80ED4A627D2D7E100E56E10 /* DetailPresenter.swift in Sources */,
+				C841D77927D1E80B009F0B8A /* BaseDelegate.swift in Sources */,
+				C841D83127D21E03009F0B8A /* BaseViewController.swift in Sources */,
+				C841D83B27D22501009F0B8A /* Model.swift in Sources */,
+				C80ED48727D2D1DF00E56E10 /* UrlPhotoHandling.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C841D75327D1E57C009F0B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C841D75C27D1E57C009F0B8A /* glimovieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C841D75E27D1E57C009F0B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C841D76727D1E57C009F0B8A /* glimovieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C841D75927D1E57C009F0B8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C841D74027D1E578009F0B8A /* glimovie */;
+			targetProxy = C841D75827D1E57C009F0B8A /* PBXContainerItemProxy */;
+		};
+		C841D76427D1E57C009F0B8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C841D74027D1E578009F0B8A /* glimovie */;
+			targetProxy = C841D76327D1E57C009F0B8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C841D74A27D1E578009F0B8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C841D74B27D1E578009F0B8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C841D74F27D1E57B009F0B8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C841D75027D1E57B009F0B8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C841D76927D1E57C009F0B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C841D76A27D1E57C009F0B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C841D76C27D1E57C009F0B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V769GH4BXT;
+				INFOPLIST_FILE = glimovie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = am.ios.glimovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C841D76D27D1E57C009F0B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V769GH4BXT;
+				INFOPLIST_FILE = glimovie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = am.ios.glimovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C841D76F27D1E57C009F0B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V769GH4BXT;
+				INFOPLIST_FILE = glimovieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = am.ios.glimovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glimovie.app/glimovie";
+			};
+			name = Debug;
+		};
+		C841D77027D1E57C009F0B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V769GH4BXT;
+				INFOPLIST_FILE = glimovieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = am.ios.glimovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glimovie.app/glimovie";
+			};
+			name = Release;
+		};
+		C841D77227D1E57C009F0B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V769GH4BXT;
+				INFOPLIST_FILE = glimovieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = am.ios.glimovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = glimovie;
+			};
+			name = Debug;
+		};
+		C841D77327D1E57C009F0B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V769GH4BXT;
+				INFOPLIST_FILE = glimovieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = am.ios.glimovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = glimovie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C841D73C27D1E578009F0B8A /* Build configuration list for PBXProject "glimovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C841D76927D1E57C009F0B8A /* Debug */,
+				C841D76A27D1E57C009F0B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C841D76B27D1E57C009F0B8A /* Build configuration list for PBXNativeTarget "glimovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C841D76C27D1E57C009F0B8A /* Debug */,
+				C841D76D27D1E57C009F0B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C841D76E27D1E57C009F0B8A /* Build configuration list for PBXNativeTarget "glimovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C841D76F27D1E57C009F0B8A /* Debug */,
+				C841D77027D1E57C009F0B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C841D77127D1E57C009F0B8A /* Build configuration list for PBXNativeTarget "glimovieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C841D77227D1E57C009F0B8A /* Debug */,
+				C841D77327D1E57C009F0B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C841D73927D1E578009F0B8A /* Project object */;
+}
